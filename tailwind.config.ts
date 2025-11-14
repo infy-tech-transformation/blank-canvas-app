@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        category: {
+          firm: "hsl(var(--category-firm))",
+          practice: "hsl(var(--category-practice))",
+          eminence: "hsl(var(--category-eminence))",
+          development: "hsl(var(--category-development))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

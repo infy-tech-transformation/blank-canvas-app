@@ -17,26 +17,32 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    --primary: 215 30% 25%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 215 60% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 15% 92%;
+    --secondary: 215 20% 92%;
     --secondary-foreground: 215 25% 15%;
 
-    --muted: 210 15% 94%;
+    --muted: 215 20% 92%;
     --muted-foreground: 215 15% 45%;
 
-    --accent: 210 50% 60%;
+    --accent: 215 60% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 215 15% 88%;
-    --input: 215 15% 88%;
-    --ring: 215 30% 25%;
+    --border: 215 20% 88%;
+    --input: 215 20% 88%;
+    --ring: 215 60% 50%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
+    
+    /* Category colors */
+    --category-firm: 210 80% 55%;
+    --category-practice: 150 60% 45%;
+    --category-eminence: 280 60% 55%;
+    --category-development: 30 85% 55%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +62,39 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 215 25% 12%;
+    --background: 215 30% 10%;
     --foreground: 210 20% 95%;
 
-    --card: 215 20% 15%;
+    --card: 215 25% 14%;
     --card-foreground: 210 20% 95%;
 
-    --popover: 215 20% 15%;
+    --popover: 215 25% 14%;
     --popover-foreground: 210 20% 95%;
 
-    --primary: 210 20% 90%;
-    --primary-foreground: 215 25% 15%;
+    --primary: 215 70% 60%;
+    --primary-foreground: 215 30% 10%;
 
-    --secondary: 215 15% 20%;
+    --secondary: 215 20% 20%;
     --secondary-foreground: 210 20% 95%;
 
-    --muted: 215 15% 18%;
-    --muted-foreground: 215 10% 60%;
+    --muted: 215 20% 20%;
+    --muted-foreground: 215 15% 65%;
 
-    --accent: 210 50% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 215 70% 60%;
+    --accent-foreground: 215 30% 10%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 20% 95%;
 
-    --border: 215 15% 22%;
-    --input: 215 15% 22%;
-    --ring: 210 50% 60%;
+    --border: 215 20% 25%;
+    --input: 215 20% 25%;
+    --ring: 215 70% 60%;
+    
+    /* Category colors - dark mode */
+    --category-firm: 210 75% 60%;
+    --category-practice: 150 55% 50%;
+    --category-eminence: 280 55% 60%;
+    --category-development: 30 80% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
